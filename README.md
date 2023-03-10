@@ -1,3 +1,11 @@
+# About ChatRWKV-jittor
+This repo is a jittor version of 🔥[ChatRWKV](https://github.com/BlinkDL/ChatRWKV)🔥. 
+
+To use this repo, first download weights from <https://huggingface.co/BlinkDL>, and then translate torch weights to be jittor-compatible.
+```
+python3 pth_bf16_to_fp32.py RWKV-4-Pile-169M-20220807-8023.pth
+```
+
 # ChatRWKV
 ChatRWKV is like ChatGPT but powered by my RWKV (100% RNN) language model, which is the only RNN (as of now) that can match transformers in quality and scaling, while being faster and saves VRAM. Training sponsored by Stability EleutherAI :) **中文使用教程，请往下看，在本页面底部。**
 
